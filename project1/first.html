@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIRST PROJECT E-GURU</title>
+    <style>
+        @media screen and (max-width : 576px) {
+            .largescreen{
+                display: none;
+            }
+            .menu{
+                height: 50px;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+            .logo{
+                height: 30px;
+                padding-bottom: 10px;
+                margin-left: 25%;
+                position: relative;
+            }
+            .logoc{
+                display: inline;
+                margin-left: 10px;
+                position: absolute;
+                top: 20px;
+            }
+            .profile{
+                float: right;
+                margin-top: 25px;
+                height: 50px;
+                margin-right: 20px;
+            }
+            .content{
+                font-size: larger;
+                margin-left: 20px;
+                margin-top: 50px;
+            }
+            .bord{
+                border-left: 2px black solid;
+                height: 60px;
+                padding-left: 10px;
+                padding-top: 15px;
+                color: rgb(100, 100, 100);
+            }
+            .bgj{
+                background-image: url("./resources1/main-image-bg.png");
+                position: relative;
+                background-repeat: no-repeat;
+                height: 451px;
+                width: 484px;
+                margin-left: 60px;
+            }
+            .imga{
+                height: 430px;
+                width: 280px;
+                padding-left: 90px;
+                position: absolute;
+                top: 6px;
+
+            }
+            .imga1{
+                height: 451px;
+                position: absolute;
+                top: -20px;
+                left: -9px;
+            }
+            .arrow1{
+                position: absolute;
+                left: 0px;
+                top: -10px;
+            }
+            .arrow2{
+                position: absolute;
+                bottom: -40px;
+                left: 35px;
+            }
+            .circle{
+                position: absolute;
+                bottom: 30px;
+                right: 10px;
+            }
+            .button1{
+                margin-top: 50px;
+                margin-left: 80px;
+                display: inline-block;
+                font-size: large;
+                height: 35px;
+                width: 170px;
+                padding-top: 15px;
+                background-color: rgb(250, 83, 22);
+                color: aliceblue;
+                text-align: center;
+            }
+            .button2{
+                margin-top: 10px;
+                font-size: large;
+                display: inline-block;
+                height: 35px;
+                width: 170px;
+                border: 1px solid black;
+                padding-top: 15px;
+                text-align: center;
+                margin-left: 40px
+            }
+            .arrow3{
+                margin-left: 65%;
+            }
+            .footb{
+                margin-top: 0px;
+                background-color: rgb(14, 39, 76);
+                width: 100vw;
+                height: auto;
+                color: aliceblue;
+                text-align: center;
+            }
+            .gap{
+                margin-top: -10px;
+            }
+            .lboxg{
+                border: hidden;
+                border-radius: 10px;
+                height: 45px;
+                width: 45px;
+                background-color: rgb(47, 226, 202);
+                margin-left: 45%;
+            }
+            .lboxo{
+                border: hidden;
+                border-radius: 10px;
+                height: 45px;
+                width: 45px;
+                background-color: rgb(246, 98, 44);
+                margin-left: 45%;
+            }
+            .lboxb{
+                border: hidden;
+                border-radius: 10px;
+                height: 45px;
+                width: 45px;
+                background-color: rgb(10, 65, 132);
+                margin-left: 45%;
+           }
+           .green{
+                padding: 8px;
+           }
+           .lb{
+            margin-top: 50px;
+           }
+           .lb1{
+            padding-top: 50px;
+           }
+        }
+        @media screen and (min-width : 575px) {
+            .logo{
+                display: inline-block;
+                margin-top: 15px;
+                margin-left: 100px;
+                position: relative;
+            }
+            .smallscreen{
+                display: none;
+            }
+            .logo1{
+                position: relative;
+                bottom: 10px;
+                display: inline-block;
+                margin-left: 5px;
+                padding-bottom: 20px
+                
+            }
+            .home{
+                display: inline-block;
+                margin-left: 220px;
+                color: rgb(246, 98, 44);
+            }
+            .about{
+                display: inline-block;
+                margin-top: 5px;
+                margin-left: 90px;
+                color: rgb(100, 100, 100);
+            }
+            .feature{
+                display: inline-block;
+                margin-top: 5px;
+                margin-left: 90px;
+                color: rgb(100, 100, 100);
+            }
+            .how{
+                display: inline-block;
+                margin-top: 5px;
+                margin-left: 90px;
+                color: rgb(100, 100, 100);
+            }
+            .box{
+                display: inline-block;
+                margin-top: 5px;
+                margin-left: 220px;  
+                padding-top: 15px;
+                text-align: center;
+                border: 1px solid black;
+                height: 35px;
+                width: 150px;
+            }
+            .bgj{
+                background-image: url("./resources1/main-image-bg.png");
+                position: relative;
+                background-repeat: no-repeat;
+                height: 451px;
+                width: 484px;
+                float: right;
+                margin-right: 50px;
+                margin-top: 60px;
+            
+            }
+            .imga{
+                height: 430px;
+                width: 280px;
+                padding-left: 90px;
+                position: absolute;
+                top: 6px;
+
+            }
+            .imga1{
+                height: 451px;
+                position: absolute;
+                top: -20px;
+                left: -9px;
+            }
+            .arrow1{
+                position: absolute;
+                left: -120px;
+                top: -20px;
+            }
+            .arrow2{
+                position: absolute;
+                bottom: -40px;
+            }
+            .circle{
+                position: absolute;
+                bottom: 30px;
+                right: 0px;
+            }
+            .arrow3{
+                position: absolute;
+                bottom: 0px;
+                left: -350px;
+            }
+            .content{
+                margin-top: 80px;
+                margin-left: 100px;
+                font-size: xx-large;
+            }
+            .bord{
+                border-left: 2px solid black;
+                margin-top: 40px;
+                height: 73px;
+                padding-left: 20px;
+                padding-top: 5px;
+                color: rgb(100, 100, 100);
+            }
+            .button1{
+                margin-top: 10px;
+                display: inline-block;
+                font-size: large;
+                height: 35px;
+                width: 170px;
+                padding-top: 15px;
+                background-color: rgb(250, 83, 22);
+                color: aliceblue;
+                text-align: center;
+            }
+            .button2{
+                margin-top: 10px;
+                font-size: large;
+                display: inline-block;
+                height: 35px;
+                width: 170px;
+                border: 1px solid black;
+                padding-top: 15px;
+                text-align: center;
+                margin-left: 40px
+            }
+            .footb{
+                margin-top: 100px;
+                background-color: rgb(14, 39, 76);
+                width: 100vw;
+                height: auto;
+                color: aliceblue;
+            }
+            .f1{
+                margin-left: 100px;
+                display: inline-block;
+            }
+            .f2{
+                display: inline-block;
+                margin-left: 120px;
+            }
+            .f3{
+                display: inline-block;
+                margin-left: 120px;
+            }
+            .f4{
+                display: inline-block;
+                margin-left: 120px;
+            }
+            .lboxg{
+                border: hidden;
+                border-radius: 10px;
+                height: 45px;
+                width: 45px;
+                background-color: rgb(47, 226, 202);
+            }
+            .lboxo{
+                border: hidden;
+                border-radius: 10px;
+                height: 45px;
+                width: 45px;
+                background-color: rgb(246, 98, 44);
+            }
+            .lboxb{
+                border: hidden;
+                border-radius: 10px;
+                height: 45px;
+                width: 45px;
+                background-color: rgb(10, 65, 132);
+           }
+           .green{
+                padding: 8px;
+           }
+           .b{
+               padding: 12px;
+           }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="largescreen">
+        <nav class="navb">
+            <img src="resources1/logo.png" alt="logo" class="logo">
+            <h2 class="logo1">E GURU</h2>
+            <h4 class="home">Home</h4>
+            <h4 class="about">About Us</h4>
+            <h4 class="feature">Features</h4>
+            <h4 class="how">How it works</h4>
+            <h4 class="box">Sign Up</h4>
+        </nav>
+
+        <div class="bgj" >
+            <img src="resources1/main-image.png" alt="" class="imga">
+            <img src="resources1/main-image-pattern.png" alt="" class="imga1">
+            <img src="resources1/orange-arrow.png" alt="" class="arrow1">
+            <img src="resources1/green-arrow.png" alt="" class="arrow2">
+            <img src="resources1/circle.png" alt="" class="circle">
+            <img src="resources1/curve-arrow.png" alt="" class="arrow3">
+        </div>
+
+        <div class="content">
+            <h1>STUDY FROM <br> HOME WITH EXPERT</h1>
+            <h5 class="bord">A learning system based on formalised <br> teaching with help of resources.</h5>
+            <h5 class="button1">Get Started</h5>
+            <h5 class="button2">Learn More</h5>
+        </div>
+
+        <div class="footb">
+            <div class="f1">
+                <h1>WHY WE ARE <br> THE BEST</h1>
+                <h4>a learning system based on <br> formalised teaching with help of.....</h4>
+            </div>
+            <div class="f2">
+                <div class="lboxg">
+                    <img src="resources1/vector3.png" alt="" class=" green">
+                </div>
+               
+                <h3>EXPERT TEACHER</h3>
+                <h5>a learning system based <br> on formalised teaching</h5>
+            </div>
+            <div class="f3">
+                <div class="lboxo">
+                    <img src="resources1/vector2.png" alt="" class="b">
+                </div>
+                
+                <h3>ONLINE COURSES</h3>
+                <h5>a learning system based <br> on formalised teaching</h5>
+            </div>
+            <div class="f4">
+                <div class="lboxb">
+                    <img src="resources1/vector1.png" alt="" class="green">
+                </div>
+                <h3>24/7 SUPPORT</h3>
+                <h5>a learning system based <br> on formalised teaching</h5>
+            </div>
+       </div>
+    </div>
+    <div class="smallscreen">
+        <nav class="smalln">
+            <img src="resources1/menu-icon.png" alt="" class="menu">
+            <img src="resources1/logo.png" alt="" class="logo">
+            <h1 class="logoc">E GURU</h1>
+            <img src="resources1/user-profile.png" alt="" class="profile">
+        </nav>
+        <div class="content">
+            <h1>STUDY FROM <br> HOME WITH EXPERT</h1>
+            <h4 class="bord">A learning system based on formalised <br> teaching with the help of resources.</h4>
+        </div>
+        <div class="bgj">
+            <img src="resources1/main-image.png" alt="" class="imga">
+            <img src="resources1/main-image-pattern.png" alt="" class="imga1">
+            <img src="resources1/orange-arrow.png" alt="" class="arrow1">
+            <img src="resources1/green-arrow.png" alt="" class="arrow2">
+            <img src="resources1/circle.png" alt="" class="circle">
+        </div>
+        <div class="bu">
+            <h5 class="button1">Get Started</h5>
+            <h5 class="button2">Learn More</h5>
+            <img src="resources1/curve-arrow.png" alt="" class="arrow3">
+        </div>
+        <div class="footb">
+            <div class="f1">
+                <h1 class="lb1">WHY WE ARE <br> THE BEST</h1>
+                <h4 class="gap">a learning system based on <br> formalised teaching with </h4>
+            </div>
+            <div class="f2">
+                <div class="lboxg lb">
+                    <img src="resources1/vector3.png" alt="" class=" green">
+                </div>
+               
+                <h3>EXPERT TEACHER</h3>
+                <h5 class="gap">a learning system based <br> on formalised teaching</h5>
+            </div>
+            <div class="f3">
+                <div class="lboxo lb">
+                    <img src="resources1/vector2.png" alt="" class="green">
+                </div>
+                
+                <h3>ONLINE COURSES</h3>
+                <h5 class="gap">a learning system based on <br> formalised teaching</h5>
+            </div>
+            <div class="f4">
+                <div class="lboxb lb">
+                    <img src="resources1/vector1.png" alt="" class="green">
+                </div>
+                <h3>24/7 SUPPORT</h3>
+                <h5 class="gap">a learning system based on <br> formalised teaching</h5>
+            </div>
+       </div>
+    </div>
+</body>
+</html>
