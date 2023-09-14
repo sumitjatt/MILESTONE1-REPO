@@ -1,0 +1,53 @@
+body{
+    background-color: gray;
+    
+}
+
+.container{
+    height: 100svh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border: 3px black solid;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: x-large;
+    margin-top: 15px;
+}
+
+h1{
+    font-size: 50px;
+    color: black;
+}
+
+.first{
+    background-color: black;
+    color: aliceblue;
+}
+
+.second{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.third{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.fourth{
+    background-color: orangered;
+    color: aliceblue;
+}
+
+.fifth{
+    background-color: brown;
+    color: aliceblue;
+}
